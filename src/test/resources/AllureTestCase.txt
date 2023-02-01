@@ -1,0 +1,19 @@
+0)testData{
+    {'Allure testops','https://qameta.io/'}
+    {'Selenide','https://selenide.org'}
+}
+1) Заголовок
+Адрес testData[1] должен быть в выдаче гугла по запросу testData[0]
+
+2) Критичность
+BLOCKER
+
+3) (optional) Предусловия
+Открыт браузер с главной страницей google.com
+
+4) Шаги
+- Ввести testData[0] в поисковую строку
+- Нажать кнопку "Search"
+
+5) Ожидаемый результат
+- Адрес testData[1] должен быть в выдаче гугла
